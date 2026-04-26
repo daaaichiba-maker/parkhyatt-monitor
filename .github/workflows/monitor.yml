@@ -5,6 +5,8 @@ on:
     # 5分おきに実行（UTC基準、日本時間は+9時間）
     - cron: '*/5 * * * *'
   workflow_dispatch:  # 手動実行ボタンも有効化
+  push:
+    branches: [main]  # プッシュ時にも動作確認用に実行
 
 jobs:
   check:
