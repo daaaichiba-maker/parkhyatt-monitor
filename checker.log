@@ -97,3 +97,14 @@
 [2026-04-27 00:02:07] No weekend availability found.
 [2026-04-27 00:02:07] === Check complete ===
 
+[2026-04-27 09:11:29] === Availability check started ===
+[2026-04-27 09:11:29] Trying direct API...
+[2026-04-27 09:11:31] API hit: https://www.tablecheck.com/api/2.0/venues/tokyo-park-hyatt-plb/availability?year=2026&month=4&menu_list_ids[]=69b935b73d77ef8c41e24daa → 0 dates
+[2026-04-27 09:11:32] API hit: https://www.tablecheck.com/api/2.0/venues/tokyo-park-hyatt-plb/availability?year=2026&month=5&menu_list_ids[]=69b935b73d77ef8c41e24daa → 0 dates
+[2026-04-27 09:11:33] API hit: https://www.tablecheck.com/api/2.0/venues/tokyo-park-hyatt-plb/availability?year=2026&month=6&menu_list_ids[]=69b935b73d77ef8c41e24daa → 0 dates
+[2026-04-27 09:11:33] Trying headless browser...
+[2026-04-27 09:11:34] Launching headless browser...
+[2026-04-27 09:11:43] Available weekend dates: none
+[2026-04-27 09:11:43] No weekend availability found.
+[2026-04-27 09:11:43] === Check complete ===
+
